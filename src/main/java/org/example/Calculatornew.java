@@ -17,7 +17,7 @@ class Add extends Calculator{
         super(first,second);
     }
     double calc(){
-        @Override
+        
         return num1+num2;
     }
 }
@@ -26,7 +26,7 @@ class Sub extends Calculator{
         super(first,second);
     }
     double calc(){
-        @Override
+        
         return num1-num2;
     }
 }
@@ -35,7 +35,7 @@ class Mul extends Calculator{
         super(first,second);
     }
     double calc(){
-        @Override
+        
         return num1*num2;
     }
 }
@@ -44,7 +44,7 @@ class Div extends Calculator{
         super(first,second);
     }
     double calc(){
-        @Override
+        
         return num1/num2;
     }
 }
