@@ -18,7 +18,6 @@ class Add extends Calculator{
         super(first,second);
     }
     double calc(){
-
         return num1+num2;
     }
 }
@@ -28,6 +27,7 @@ class Sub extends Calculator{
     }
     double calc(){
         return num1-num2;
+
     }
 }
 class Mul extends Calculator{
